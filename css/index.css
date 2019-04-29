@@ -184,7 +184,7 @@ body {
       .logo {
           border-bottom: 1px solid blaCK;
           margin: 0;
-          /* padding: 0 30.5vw 15px; */
+          padding: 0 25vw 15px;
       }
       nav {
           flex-direction: column;
