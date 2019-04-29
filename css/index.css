@@ -177,3 +177,43 @@ body {
           display: none;
       }
   }
+  @media(max-width: 500px){
+      body {
+          width: 100vw;
+      }
+      .logo {
+          border-bottom: 1px solid blaCK;
+          margin: 0;
+          /* padding: 0 30.5vw 15px; */
+      }
+      nav {
+          flex-direction: column;
+      }
+      nav a {
+          padding: 15px;
+          border-bottom: 1px solid black;
+          width: 100%;
+          text-align: center;
+      } 
+      h3 {
+          margin: 10px 0;
+      }
+      .middle-img {
+          background-size: contain;
+          background-repeat: no-repeat;
+          align-self: center;
+          height: 100px;
+      }
+      main {
+          flex-direction: column;
+          justify-content: center;
+      }
+      .colone, .coltwo, .twocolone, .twocoltwo, .twocolthree{
+          width: 100%;
+          margin: 10px 0;
+      }
+      main, footer {
+          width: 90vw;
+          margin: auto;
+      }
+  }
